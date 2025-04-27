@@ -1,0 +1,43 @@
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #343a40;
+    /* Dark navbar */
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    /* Dark cards */
+    color: white;
+}
+
+/* Mengubah warna ikon di footer saat dark mode */
+body.dark-mode .bi {
+    color: white !important;
+}
+
+body.dark-mode .bg-danger-subtle {
+    background-color: grey !important;
+}
+
+body.dark-mode .card-body {
+    background-color: grey !important;
+}
+
+/* Mengubah latar belakang tombol dark mode menjadi hitam */
+body.dark-mode #darkModeToggle {
+    background-color: #343a40 !important;
+    /* Warna hitam untuk tombol */
+    border-color: #343a40 !important;
+    /* Mengubah border jika ada */
+    color: white;
+    /* Warna teks ikon menjadi putih */
+}
+
+/* Mengubah warna ikon menjadi putih dalam tombol dark mode */
+body.dark-mode #darkModeToggle .bi {
+    color: white !important;
+}
